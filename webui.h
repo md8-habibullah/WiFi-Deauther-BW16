@@ -17,7 +17,7 @@ void sendHeader(WiFiClient &client) {
   client.print("HTTP/1.1 200 OK\nContent-Type: text/html\nConnection: close\n\n");
   client.print("<!DOCTYPE html><html lang=\"en\"><head><meta charset=\"UTF-8\">");
   client.print("<meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">");
-  client.print("<title>WiFi Pentester Pro</title>");
+  client.print("<title>WiFi-Deauther-BW16</title>");
   client.print("<style>");
   client.print(":root{--bg:#020617;--surface:#0f172a;--primary:#3b82f6;--primary-glow:rgba(59,130,246,0.5);--danger:#ef4444;--danger-glow:rgba(239,68,68,0.5);--success:#22c55e;--border:#1e293b;--text:#f8fafc;--text-muted:#94a3b8}");
   client.print("body{font-family:'Inter',system-ui,-apple-system,sans-serif;background:var(--bg);color:var(--text);margin:0;padding:0;display:flex;justify-content:center;min-height:100vh}");
@@ -61,7 +61,7 @@ void sendHeader(WiFiClient &client) {
   client.print("document.getElementById('stop-btn').style.display=d.status!=='Idle'?'flex':'none';");
   client.print("}catch(e){}} setInterval(update,1000);");
   client.print("</script></head><body><div class=\"container\"><div class=\"glass\">");
-  client.print("<div class=\"header\"><h1>WiFi Deauther Pro</h1><div class=\"status-pill\"><div id=\"dt\" class=\"dot\"></div><span id=\"st\">Idle</span></div></div>");
+  client.print("<div class=\"header\"><h1>WiFi-Deauther-BW16</h1><div class=\"status-pill\"><div id=\"dt\" class=\"dot\"></div><span id=\"st\">Idle</span></div></div>");
 }
 
 void sendFooter(WiFiClient &client) {
@@ -106,3 +106,4 @@ void sendMainUI(WiFiClient &client, const std::vector<WiFiScanResultUI> &n24, co
 }
 
 #endif
+

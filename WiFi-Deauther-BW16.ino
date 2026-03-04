@@ -27,7 +27,7 @@ typedef struct {
   uint8_t channel;
 } WiFiScanResult;
 
-char *ssid = "WiFi-Deauther-Pro";
+char *ssid = "WiFi-Deauther-BW16";
 char *pass = "12345678";
 
 int current_channel = 1;
@@ -352,3 +352,4 @@ void loop() {
     delay(1);
   }
 }
+

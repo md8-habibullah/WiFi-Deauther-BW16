@@ -1,7 +1,7 @@
-# WiFi-Deauther-Pro
-WiFi Deauther For Both 2.4Ghz &amp; 5Ghz WiFI Networks with B&amp;T BW16 RTL8720DN Module
+# WiFi-Deauther-BW16
+WiFi-Deauther-BW16 (RTL8720DN) Works Both For 2.4Ghz &amp; 5Ghz WiFI Networks Deauth Attack!
 
-![WiFi Deauther Pro UI](/images/UI.png)
+![WiFi Deauther BW16 UI](/images/UI.png)
 
 
 ---
@@ -61,7 +61,7 @@ Tools → Port → [Your Device Port]
 2. Connect to the Wi-Fi network:
 
 ```
-SSID: WiFi-Deauther-pro
+SSID: WiFi-Deauther-BW16
 Password: 12345678
 ```
 

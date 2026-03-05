@@ -1,7 +1,9 @@
 # WiFi-Deauther-BW16
 WiFi-Deauther-BW16 (RTL8720DN) Works Both For 2.4Ghz &amp; 5Ghz WiFi Networks Deauth Attack!
 
-![WiFi Deauther BW16 UI](/images/UI.png)
+## Watch Full Videos on YouTube 
+
+[![alt text](https://img.youtube.com/vi/hwuR_K_6Yck/maxresdefault.jpg)](https://youtu.be/hwuR_K_6Yck)
 
 
 ---
@@ -72,6 +74,8 @@ http://192.168.1.1
 ```
 
 ---
+
+![WiFi Deauther BW16 UI](/images/UI.png)
 
 ### 2️⃣ Web Interface
 
